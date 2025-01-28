@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Idade Geológica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Calculadora de Idade Geológica</h1>
+            <p>Com esta calculadora, você pode calcular a idade geológica de forma simples e rápida, baseando-se em milhões de anos de formação de rochas ou eventos geológicos.</p>
+        </header>
+
+        <section class="info">
+            <h2>Como Funciona?</h2>
+            <p>Para usar, basta clicar no botão abaixo, inserir o número de milhões de anos na calculadora e obter a idade geológica estimada de um determinado evento ou formação.</p>
+            <button id="openPopup">Abrir Calculadora</button>
+        </section>
+    </div>
+
+    <script>
+        document.getElementById("openPopup").addEventListener("click", function() {
+            window.open("popup.html", "Calculadora", "width=600,height=400");
+        });
+    </script>
+</body>
+</html>

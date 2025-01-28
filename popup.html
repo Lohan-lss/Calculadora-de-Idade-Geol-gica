@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Idade Geológica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="popup-container">
+        <header>
+            <h2>Calculadora de Idade Geológica</h2>
+            <p>Digite a quantidade de milhões de anos e obtenha a idade geológica do evento ou formação geológica.</p>
+        </header>
+
+        <form id="calculatorForm">
+            <input type="number" id="years" placeholder="Exemplo: 100" required>
+            <button type="submit">Calcular</button>
+        </form>
+
+        <div id="result" class="result-container">
+            <!-- O resultado será exibido aqui -->
+        </div>
+
+        <footer>
+            <button onclick="window.close()">Fechar</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
